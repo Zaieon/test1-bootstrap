@@ -1,0 +1,275 @@
+body {
+  background-color: grey;
+}
+
+.nav-bg-color {
+  background-color: white;
+}
+
+/* .taski {
+  box-shadow: 0 8px 6px -6px grey;
+  margin-bottom: 0px;
+} */
+.photo-slide {
+  text-align: center;
+  position: relative;
+}
+.hello {
+  width: 100%;
+}
+
+.left-hand {
+  background-color: white;
+  position: absolute;
+  left: 50px;
+  width: 450px;
+  bottom: 130px;
+  text-align: left;
+  padding: 20px 25px;
+}
+
+.left-hand h1 {
+  font-weight: bolder;
+}
+
+.left-hand p {
+  font-size: 20px;
+}
+
+.tap {
+  border-radius: 10px;
+  width: 400px;
+  height: 48px;
+  border-color: black;
+}
+
+.largest {
+  position: relative;
+  left: 20px;
+  top: 50px;
+}
+
+.larg {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.larga {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+}
+.lana {
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+}
+
+.alu {
+  color: black;
+}
+
+.ala {
+  color: grey;
+}
+
+.sma {
+  color: gray;
+}
+
+.jumo {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.tabb {
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  top: 60px;
+  width: 95%;
+  /* left: 25px;
+  right: 10px;
+  
+  margin-right: 400px; */
+}
+
+.tabbs {
+  /* border: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 20px; */
+  position: relative;
+  top: 0px;
+  width: 95%;
+  /* left: 25px;
+  right: 10px;
+  
+  margin-right: 400px; */
+}
+
+.alin {
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.ima {
+  float: right;
+  position: relative;
+  right: 30px;
+  width: 150px;
+}
+
+.tas {
+  font-weight: bolder;
+}
+
+.tan {
+  /* margin-right: 10px; */
+  font-size: 5px;
+}
+
+.tis {
+  border-radius: 30px;
+  width: 500px;
+  height: 50px;
+  border-color: black;
+  margin: 10px auto;
+}
+
+.alls {
+  margin: 120px 0px 0px 25px;
+}
+
+.tani {
+  margin-top: 20px;
+}
+.tiso {
+  border-radius: 20px;
+}
+
+.tarsal {
+  font-weight: bolder;
+}
+
+.lino {
+  text-decoration: none;
+  font-weight: bolder;
+  color: blueviolet;
+}
+
+.tix {
+  float: right;
+}
+
+.tamp {
+  float: left;
+}
+
+.timp {
+  margin: auto;
+  align-content: right;
+  color: black;
+  padding-right: 80px;
+}
+
+.sant {
+  color: black;
+  font-size: 30px;
+}
+
+.sent {
+  color: black;
+  font-size: 20px;
+}
+
+.nana {
+  float: left;
+  padding: 10px auto;
+  margin: 10px 10px;
+  justify-content: center;
+}
+
+.tana {
+  margin-top: 1px;
+}
+
+.nass {
+  clear: both;
+}
+
+.icon {
+  color: grey;
+  margin: auto;
+}
+
+.tan {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.tiss {
+  border-color: black;
+  color: black;
+  font-weight: bolder;
+  font-size: 13px;
+  padding: 10px 27px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.tisso {
+  border-color: black;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size: 13px;
+  padding: 10px 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tist {
+  padding: 11 10;
+  color: black;
+  border-color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
