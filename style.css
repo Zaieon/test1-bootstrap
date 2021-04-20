@@ -182,11 +182,64 @@ body {
   font-size: 30px;
 }
 
+.sants {
+  position: relative;
+  left: 200px;
+  top: 70px;
+  width: 50%;
+}
+
+.santi {
+  position: relative;
+  left: 130px;
+  top: 100px;
+}
+
+.sene {
+  width: 80%;
+}
+
 .sent {
   color: black;
   font-size: 20px;
 }
 
+.tax {
+  position: relative;
+  left: 80px;
+}
+
+.foot {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.btnfoot {
+  float: right;
+  padding: 5px 20px;
+}
+
+.cask {
+  padding-bottom: 10px;
+}
+
+.cana {
+  padding-top: 1px;
+}
+
+.tann {
+  /* position: relative;
+  left: 13px; */
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.poft {
+  font-size: 12px;
+  float: right;
+  color: gray;
+}
 .nana {
   float: left;
   padding: 10px auto;
